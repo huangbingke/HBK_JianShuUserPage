@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HBK_UserPageViewController.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,13 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+//个人主页
+- (IBAction)nextUserPage:(UIButton *)sender {
+    HBK_UserPageViewController *userVC = [[HBK_UserPageViewController alloc] init];
+    
+    [self.navigationController pushViewController:userVC animated:YES];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
