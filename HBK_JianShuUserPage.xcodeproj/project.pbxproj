@@ -570,6 +570,7 @@
 				DEVELOPMENT_TEAM = Q7FLGD52CU;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HBK_JianShuUserPage/BaseClass/PrefixHeader.pch";
 				INFOPLIST_FILE = HBK_JianShuUserPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hbk.www.HBK-JianShuUserPage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -585,6 +586,7 @@
 				DEVELOPMENT_TEAM = Q7FLGD52CU;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HBK_JianShuUserPage/BaseClass/PrefixHeader.pch";
 				INFOPLIST_FILE = HBK_JianShuUserPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hbk.www.HBK-JianShuUserPage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
